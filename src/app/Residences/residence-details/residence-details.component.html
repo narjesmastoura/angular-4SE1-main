@@ -1,0 +1,3 @@
+<button (click)="goToNext()">Next</button>
+<button [routerLink]="['/residences/add']">Add Residence</button>
+<button [routerLink]="['/residences/add']" [queryParams]="{updateMode: true}">Update Residence</button>
