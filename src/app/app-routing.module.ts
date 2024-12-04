@@ -18,8 +18,9 @@ const routes: Routes = [
   { path: 'apartments', component: ApartmentsComponent },
   { path: 'apartments/residence/:id', component: ApartmentsByResidenceComponent },
   { path: 'apartments/add', component: AddApartmentComponent },
-  { path: '**', component: NotFoundComponent },
+ 
   { path: 'apartments/:residenceId', component: ApartmentsByResidenceComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
